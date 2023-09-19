@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: can-security-example
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+  data:
+    mongodb:
+      uri: ${app.data.mongo.uri}
+
+config:
+  security:
+    prefix: ${app.security.prefix}
+    secret: ${app.security.secret}
+    validity: ${app.security.validity}

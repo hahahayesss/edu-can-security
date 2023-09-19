@@ -1,0 +1,7 @@
+app:
+  data:
+    mongo.uri: ${MONGO_URL}
+  security:
+    prefix: ${SECURITY_PREFIX}
+    secret: ${SECURITY_SECRET}
+    validity: ${SECURITY_VALIDITY}

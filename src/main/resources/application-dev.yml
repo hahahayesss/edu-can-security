@@ -1,0 +1,7 @@
+app:
+  data:
+    mongo.uri: mongodb://localMongo:secret@localhost:27017/Can?authSource=admin&readPreference=primary&directConnection=true&ssl=false
+  security:
+    prefix: Bearer
+    secret: skjfnsdjkfmksdjfksdnfks
+    validity: 86400000
